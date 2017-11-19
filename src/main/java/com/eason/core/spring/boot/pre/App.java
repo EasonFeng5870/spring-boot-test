@@ -2,6 +2,7 @@ package com.eason.core.spring.boot.pre;
 
 import com.eason.core.spring.boot.pre.service.PrototypeService;
 import com.eason.core.spring.boot.pre.service.SingletonService;
+import org.springframework.beans.factory.annotation.Autowire;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -38,7 +39,7 @@ public class App
         System.out.println(useFunctionService.sayHello("nick"));
     }
 
-    @Bean(name = "useFunctionService")
+    @Bean(name = "useFunctionService", autowire = Autowire.BY_NAME)
     public UseFunctionService getUseFunctionService(){
         return new UseFunctionService();
     }
