@@ -4,6 +4,7 @@ import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.lang.Nullable;
 import org.springframework.scheduling.annotation.AsyncConfigurer;
 import org.springframework.scheduling.annotation.EnableAsync;
@@ -20,6 +21,7 @@ import java.util.concurrent.Executor;
 @Configuration
 @ComponentScan("com.eason.core.spring.boot.pre.chapter03.pool")
 @EnableAsync
+@EnableAspectJAutoProxy
 public class AsyncConfig implements AsyncConfigurer {
 
     @Nullable
