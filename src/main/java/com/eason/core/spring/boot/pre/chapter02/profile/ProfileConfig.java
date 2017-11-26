@@ -1,4 +1,4 @@
-package com.eason.core.spring.boot.pre.profile;
+package com.eason.core.spring.boot.pre.chapter02.profile;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;

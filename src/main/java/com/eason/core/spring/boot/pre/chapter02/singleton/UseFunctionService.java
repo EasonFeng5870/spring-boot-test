@@ -1,4 +1,4 @@
-package com.eason.core.spring.boot.pre;
+package com.eason.core.spring.boot.pre.chapter02.singleton;
 
 /**
  * @author fengyingsheng on 2017/11/14.

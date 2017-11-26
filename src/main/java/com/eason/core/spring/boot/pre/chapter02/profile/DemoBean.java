@@ -1,4 +1,4 @@
-package com.eason.core.spring.boot.pre.profile;
+package com.eason.core.spring.boot.pre.chapter02.profile;
 
 /**
  * @author fengyingsheng on 2017/11/15.

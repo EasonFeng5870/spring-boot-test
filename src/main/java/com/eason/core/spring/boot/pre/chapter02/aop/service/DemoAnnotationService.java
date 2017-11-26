@@ -1,6 +1,6 @@
-package com.eason.core.spring.boot.pre.service;
+package com.eason.core.spring.boot.pre.chapter02.aop.service;
 
-import com.eason.core.spring.boot.pre.aop.AopAction;
+import com.eason.core.spring.boot.pre.chapter02.aop.AopAction;
 import org.springframework.stereotype.Service;
 
 /**

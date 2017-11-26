@@ -1,7 +1,5 @@
-package com.eason.core.spring.boot.pre;
+package com.eason.core.spring.boot.pre.chapter02.singleton;
 
-import com.eason.core.spring.boot.pre.service.PrototypeService;
-import com.eason.core.spring.boot.pre.service.SingletonService;
 import org.springframework.beans.factory.annotation.Autowire;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -13,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * Hello world!
  *
  */
-@ComponentScan
+@ComponentScan("com.eason.core.spring.boot.pre.chapter02.singleton")
 @Configuration
 public class App 
 {

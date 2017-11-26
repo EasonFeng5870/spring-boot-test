@@ -1,4 +1,4 @@
-package com.eason.core.spring.boot.pre.aop;
+package com.eason.core.spring.boot.pre.chapter02.aop;
 
 import java.lang.annotation.*;
 

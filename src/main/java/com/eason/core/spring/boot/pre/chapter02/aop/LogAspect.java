@@ -1,4 +1,4 @@
-package com.eason.core.spring.boot.pre.aop;
+package com.eason.core.spring.boot.pre.chapter02.aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -17,7 +17,7 @@ import java.lang.reflect.Method;
 @Component
 public class LogAspect {
 
-    @Pointcut("@annotation(com.eason.core.spring.boot.pre.aop.AopAction)")
+    @Pointcut("@annotation(com.eason.core.spring.boot.pre.chapter02.aop.AopAction)")
     public void annotationPointCut(){}
 
     @After("annotationPointCut()")
@@ -30,7 +30,7 @@ public class LogAspect {
         System.out.println("==========");
     }
 
-    @Before("execution(* com.eason.core.spring.boot.pre.service.DemoMethodService.*(..))")
+    @Before("execution(* com.eason.core.spring.boot.pre.chapter02.aop.service.DemoMethodService.*(..))")
     public void before(JoinPoint joinPoint) {
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
         Method method = signature.getMethod();

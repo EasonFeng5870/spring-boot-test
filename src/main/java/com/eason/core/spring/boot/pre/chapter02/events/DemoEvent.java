@@ -1,4 +1,4 @@
-package com.eason.core.spring.boot.pre.events;
+package com.eason.core.spring.boot.pre.chapter02.events;
 
 import org.springframework.context.ApplicationEvent;
 

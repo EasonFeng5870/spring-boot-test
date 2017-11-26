@@ -1,4 +1,4 @@
-package com.eason.core.spring.boot.pre.service;
+package com.eason.core.spring.boot.pre.chapter02.singleton;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
